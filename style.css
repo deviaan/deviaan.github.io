@@ -1,0 +1,41 @@
+#content {
+    display: grid;
+    grid-gap: 5px;
+    grid-template:
+        "wthr wthr wthr .... .... dttm dttm" 150px
+        ".... subs epis plyr plyr .... ...." 175px
+        ".... rsfd rsfd rsfd rsfd rsfd ...." 500px
+       / auto auto auto 50px auto auto auto;
+}
+
+#weather {
+    background-color: pink;
+    grid-area: wthr;
+}
+
+#date-time {
+    background-color: red;
+    grid-area: dttm;
+}
+
+
+#podcast-subs {
+    background-color: blue;
+    grid-area: subs;
+}
+
+#podcast-eps {
+    background-color: green;
+    grid-area: epis;
+}
+
+#podcast-player {
+    background-color: orange;
+    grid-area: plyr;
+}
+
+#rss-feed {
+    background-color: purple;
+    grid-area: rsfd;
+}
+
